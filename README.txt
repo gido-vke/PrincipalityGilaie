@@ -1,5 +1,5 @@
 Gilaïe official government website
-By Gido Verkerke and helped massively by Lord Robin paardekooper
+By Gido Verkerke and helped massively by Lord ████████████████████
 
 
 THIS WORK IS LICENCED UNDER THE 𝗔𝘁𝘁𝗿𝗶𝗯𝘂𝘁𝗶𝗼𝗻-𝗡𝗼𝗻𝗖𝗼𝗺𝗺𝗲𝗿𝗰𝗶𝗮𝗹-𝗡𝗼𝗗𝗲𝗿𝗶𝘃𝗮𝘁𝗶𝘃𝗲𝘀 𝟰.𝟬 𝗜𝗻𝘁𝗲𝗿𝗻𝗮𝘁𝗶𝗼𝗻𝗮𝗹 (𝗖𝗖 𝗕𝗬-𝗡𝗖-𝗡𝗗 𝟰.𝟬) CC LICENCE.
