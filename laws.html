@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--iconpack-->
+    <title>Laws | The Principality of Gilaïe</title>
+</head>
+
+<h1 class="DontShow">The Principality of Gilaïe</h1>
+
+<body>
+    <div id="btn2" class="OfficialSite">
+        <img id="TopImg" src="https://i.ibb.co/rdw8Y8R/Gila-e.png"
+            alt="Het Vorstendom van Gilaïe, Vlag, The Principality of Gilaïe, Flag. Gilaïe/Gilaie">
+        <div class="UpperLineOFF">
+            <div class="WetNet">
+                <b style="display: block;">This is an official website of the Gilaïan Government.</b> <span>
+                    <p onclick="toggle_visibility()" class="LinkAppearance">How do you know?</p>
+            </div>
+            </span>
+        </div>
+        <div id="ReasoningOFF">
+            Currently, there has not yet been a nice way established to ascertain that the website you are viewing is
+            legitimate. <br> You are just going to have to trust your personal reasoning skills.
+        </div>
+    </div>
+    <nav class="verticalBar">
+        <div id="navbar">
+            <div class="Laffy">
+                <a class="hintin" href="contact.html">Contact</a>
+                <a class="hintin" href="news.html">News</a>
+                <a class="hintin" href="laws.html">Publications</a>
+                <a class="hintin" href="structure.html">Structure</a>
+                <a class="hintin" href="council_us.html">The Government</a>
+                <a class="hintin" href="about.html">About</a>
+            </div>
+            <div class="Lop">
+                <a href="index.html">
+                    <img id="ere" src="https://i.ibb.co/pr9SS9p/Gilaje-Inverted.png">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="horizontalList">
+        <div id="navbar2">
+            <div class="Lip">
+                <a href="index.html">
+                    <img id="otr" src="https://i.ibb.co/pr9SS9p/Gilaje-Inverted.png">
+                </a>
+            </div>
+            <div class="HamburgerMenu" onclick="grubbel()">
+                <img class="HambIcoon"
+                    src="https://upload.wikimedia.org/wikipedia/commons/5/59/Hamburger_icon_white.svg"
+                    alt="Hamburger Menu Gilaïe">
+            </div>
+            <ul class="DeNavigatorKLEIN" id="LIJSTloc">
+                <li> <a class="hintin" href="contact.html">Contact</a> <br></li>
+                <li> <a class="hintin" href="news.html">News</a><br></li>
+                <li> <a class="hintin" href="laws.html">Publications</a><br></li>
+                <li> <a class="hintin" href="structure.html">Structure</a> <br></li>
+                <li> <a class="hintin" href="council_us.html">The Government</a><br></li>
+                <li> <a class="hintin" href="about.html">About</a><br></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+    <div class="BannerForTopOfSite">
+        PUBLICATIONS </div>
+    <br>
+
+    <div class="InhoudExample">
+        <br>
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('wet')"> Laws</button>
+            <button class="btn" onclick="filterSelection('brief')"> Letters</button>
+            <button class="btn" onclick="filterSelection('verworpen')"> Rejected Bills</button>
+            <button class="btn" onclick="filterSelection('uitslag')"> Voting Results</button>
+            <button class="btn" onclick="filterSelection('titel')"> Titles and Orders</button>
+            <button class="btn" onclick="filterSelection('anders')"> Other</button>
+        </div>
+
+        <br>
+
+        <div class="LawContainerBener">
+
+            <a class="PublicationContainer" href="./publications/anders-volksliedblad.pdf">
+                <div class="filterDiv anders">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">OFFICIËLE BLADMUZIEK VAN HET VOLKSLIED VAN GILAÏE</div>
+                        <div class="LawSecondLine">Official sheet music of the Gilaïan national Anthem </div>
+                    </div>
+                    <div class="LawEndLine"> 19/09/2021, Middelburg <br>
+                        Language: sheet music </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/uitslag-volkslied.pdf">
+                <div class="filterDiv uitslag">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">STEMUITSLAG VAN DE VASTSTELLING VAN HET NATIONALE VOLKSLIED VAN HET
+                            VORSTENDOM VAN GILAÏE</div>
+                        <div class="LawSecondLine">Voting results of the Adoption of the National Anthem of the
+                            Principality of Gilaïe </div>
+                    </div>
+                    <div class="LawEndLine"> 19/09/2021, Kirkja <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/wet-volkslied.pdf">
+                <div class="filterDiv wet">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">DE VASTSTELLING VAN HET NATIONALE VOLKSLIED VAN HET VORSTENDOM VAN
+                            GILAÏE</div>
+                        <div class="LawSecondLine">Adoption of the National Anthem of the Principality of Gilaïe </div>
+                    </div>
+                    <div class="LawEndLine"> 19/09/2021, Kirkja <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/titel-vorstnieuw.pdf">
+                <div class="filterDiv titel">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">ALLE TITELS VAN DE VORST VAN HET VORSTENDOM VAN GILAÏE</div>
+                        <div class="LawSecondLine">All titles of the Potentate of the Principality of Gilaïe </div>
+                    </div>
+                    <div class="LawEndLine"> 27/08/2021, Hansweert <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/titel-potentatenieuw.pdf">
+                <div class="filterDiv titel">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">All titles of the Potentate of the Principality of Gilaïe</div>
+                        <div class="LawSecondLine">Alle titels van de Vorst van het Vorstendom van Gilaïe </div>
+                    </div>
+                    <div class="LawEndLine"> 27/08/2021, Hansweert <br>
+                        Language: English (EN) </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/wet-corona.pdf">
+                <div class="filterDiv wet">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">TIJDELIJKE WET BETREFFENDE DE REGELS EN BEPALINGEN TER BESTRIJDING VAN
+                            COVID-19, EN DIENS HANDHAVING</div>
+                        <div class="LawSecondLine">Temporary Law concerning the rules and decisions made in an effort to
+                            combat COVID-19, and its enforcement </div>
+                    </div>
+                    <div class="LawEndLine"> 26/07/2021, Goes <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/wet-orientatie.pdf">
+                <div class="filterDiv wet">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">WET OP DE CORRECTE ORIËNTATIE VAN DE NATIONALE VLAG</div>
+                        <div class="LawSecondLine"> Law on the correct orientation of the national flag </div>
+                    </div>
+                    <div class="LawEndLine"> 14/08/2021, Goes <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/wet-dienstplicht.pdf">
+                <div class="filterDiv wet">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">WET VOOR INVOERING DIENSTPLICHT ONDER JONGEREN</div>
+                        <div class="LawSecondLine"> Law on the introduction of conscription for young adults </div>
+                    </div>
+                    <div class="LawEndLine"> 20/07/2021, Goes <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/wet-grondeigenaar.pdf">
+                <div class="filterDiv wet">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">WET OP DE REGELING VAN GRONDEIGENAARSCHAP</div>
+                        <div class="LawSecondLine"> Law on the arrangement of landownership </div>
+                    </div>
+                    <div class="LawEndLine"> 08/06/2021, Goes <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/wet-israelsteun.pdf">
+                <div class="filterDiv wet">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">WET OP DE REGELING VAN MILITAIRE STEUN VOOR ISRAËL</div>
+                        <div class="LawSecondLine"> Law on the arrangement of military aid for Israël </div>
+                    </div>
+                    <div class="LawEndLine"> 08/06/2021, Goes <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/wet-motiewantrouwen.pdf">
+                <div class="filterDiv wet">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">MOTIE VAN WANTROUWEN JEGENS DE MINISTER VAN VOLKSGEZONDHEID, WELZIJN
+                            EN SPORT</div>
+                        <div class="LawSecondLine"> Vote of no-confidence / motion of distrust against the Minister of
+                            Public Health, Welfare and Sport </div>
+                    </div>
+                    <div class="LawEndLine"> 09/06/2021, Kloetinge <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/wet-baklava.pdf">
+                <div class="filterDiv wet">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">WET VASTSTELLING BAKLAVA UIT TURKIJE EN GEEN ENKELE ANDERE GEMEENSCHAP
+                        </div>
+                        <div class="LawSecondLine"> Law on the determination that Baklava is from Turkey and not any
+                            other community </div>
+                    </div>
+                    <div class="LawEndLine"> 07/06/2021, Hansweert <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/wet-politiegeweld.pdf">
+                <div class="filterDiv wet">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">WET INZAKE HET AANPAKKEN VAN GEWELD TEGEN POLITIE EN BOA'S</div>
+                        <div class="LawSecondLine"> Law on tackling the violence against police and civil servants
+                        </div>
+                    </div>
+                    <div class="LawEndLine"> 09/06/2021, Goes <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/verworpen-palestina.pdf">
+                <div class="filterDiv verworpen">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">VERWORPEN WETSVOORSTEL ERKENNING VAN DE STAAT PALESTINA </div>
+                        <div class="LawSecondLine"> Rejected bill on the recognition of the state of Palestine </div>
+                    </div>
+                    <div class="LawEndLine"> 06/06/2021, Kamperland <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+
+            <a class="PublicationContainer" href="./publications/verworpen-begrotingdefensie.pdf">
+                <div class="filterDiv verworpen">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">VERWORPEN WETSVOORSTEL INZAKE DE BEGROTING VAN ZOWEL HET MINISTERIE
+                            VAN DEFENSIE ALS HET MINISTERIE VAN JUSTITIE NAAR 3% VAN HET BBP</div>
+                        <div class="LawSecondLine"> Rejected bill on the budget for the ministry of defense and the
+                            ministry of justice to 3% of the GDP </div>
+                    </div>
+                    <div class="LawEndLine"> 08/06/2021, Goes <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/verworpen-begrotingdefensie.pdf">
+                <div class="filterDiv verworpen">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">VERWORPEN WETSVOORSTEL OP HET MINIMUMLOON</div>
+                        <div class="LawSecondLine"> Rejected bill on the minimum wage </div>
+                    </div>
+                    <div class="LawEndLine"> 16/08/2021, Hansweert <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/uitslag-corona.pdf">
+                <div class="filterDiv uitslag">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">STEMUITSLAG CORONAWET</div>
+                        <div class="LawSecondLine"> Voting results COVID-19 law </div>
+                    </div>
+                    <div class="LawEndLine"> 26/07/2021, Goes <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/uitslag-orientatie.pdf">
+                <div class="filterDiv uitslag">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">STEMUITSLAG WET OP HET TONEN VAN DE VLAG</div>
+                        <div class="LawSecondLine"> Voting results law on showing the flag </div>
+                    </div>
+                    <div class="LawEndLine"> 14/08/2021, Goes <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/uitslag-dienstplicht.pdf">
+                <div class="filterDiv uitslag">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">STEMUITSLAG WET VOOR INVOERING DIENSTPLICHT ONDER JONGEREN</div>
+                        <div class="LawSecondLine"> Voting results law on introduction of conscription of young adults
+                        </div>
+                    </div>
+                    <div class="LawEndLine"> 20/07/2021, Goes <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/uitslag-grondeigenaar.pdf">
+                <div class="filterDiv uitslag">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">STEMUITSLAG WET OP DE REGELING VAN GRONDEIGENAARSCHAP</div>
+                        <div class="LawSecondLine"> Voting results on the arrangement of landownership </div>
+                    </div>
+                    <div class="LawEndLine"> 08/06/2021, Goes <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/uitslag-israelsteun.pdf">
+                <div class="filterDiv uitslag">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">STEMUITSLAG WET OP DE REGELING VAN STEUN VOOR ISRAËL</div>
+                        <div class="LawSecondLine"> Voting results on the arrangement of military aid for Israël </div>
+                    </div>
+                    <div class="LawEndLine"> 08/06/2021, Goes <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/uitslag-baklava.pdf">
+                <div class="filterDiv uitslag">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">STEMUITSLAG WET VASTSTELLING BAKLAVA UIT TURKIJE EN GEEN ENKELE ANDERE
+                            GEMEENSCHAP</div>
+                        <div class="LawSecondLine"> Voting results on the determination that Baklava is from Turkey and
+                            not any
+                            other community </div>
+                    </div>
+                    <div class="LawEndLine"> 07/06/2021, Goes <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/uitslag-politiegeweld.pdf">
+                <div class="filterDiv uitslag">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">STEMUITSLAG WET WET INZAKE HET AANPAKKEN VAN GEWELD TEGEN POLITIE EN
+                            BOA'S</div>
+                        <div class="LawSecondLine"> Voting results on tackling the violence against police and civil
+                            servants </div>
+                    </div>
+                    <div class="LawEndLine"> 07/06/2021, Goes <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/uitslag-palestina.pdf">
+                <div class="filterDiv uitslag">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">STEMUITSLAG Wet op de erkenning van Palestina</div>
+                        <div class="LawSecondLine"> Voting results on the recognition of the state of Palestine </div>
+                    </div>
+                    <div class="LawEndLine"> 06/06/2021, Kamperland <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/uitslag-begrotingdefjus.pdf">
+                <div class="filterDiv uitslag">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">STEMUITSLAG WETSVOORSTEL INZAKE DE BEGROTING VAN ZOWEL HET MINISTERIE
+                            VAN DEFENSIE ALS HET MINISTERIE VAN JUSTITIE NAAR 3% VAN HET BBP</div>
+                        <div class="LawSecondLine"> Voting results on the budget for the ministry of defense and the
+                            ministry of justice to 3% of the GDP </div>
+                    </div>
+                    <div class="LawEndLine"> 08/06/2021, Goes <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/uitslag-minimumloon.pdf">
+                <div class="filterDiv uitslag">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">STEMUITSLAG WETSVOORSTEL OP HET MINIMUMLOON</div>
+                        <div class="LawSecondLine"> Voting results on the minimum wage </div>
+                    </div>
+                    <div class="LawEndLine"> 16/08/2021, Goes <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/anders-paspoortenzaken.pdf">
+                <div class="filterDiv anders">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">PRESENTATIE AAN DE MINISTERRAAD | STAND VAN ZAKEN PASPOORTEN VOOR
+                            GILAÏE</div>
+                        <div class="LawSecondLine"> Presentation to the Council of Ministers | Current state of affairs:
+                            Passports for Gilaïe </div>
+                    </div>
+                    <div class="LawEndLine"> 30/07/2021, Middelburg <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/titel-lordladyuitleg.pdf">
+                <div class="filterDiv titel">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">TOELICHTING OP DE HONORAIRE TITEL LORD OF LADY VAN GILAÏE</div>
+                        <div class="LawSecondLine"> Explaination of the honorary title Lord or Lady of Gilaïe </div>
+                    </div>
+                    <div class="LawEndLine"> 12/07/2021, Middelburg <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/brief-motiewantrouwen.pdf">
+                <div class="filterDiv brief">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">BRIEF AAN DE MINISTERRAAD: Beëindiging Ministerschap Mevr. Goubert,
+                            VOE &
+                            Verwelkoming Dhr. J. Schipper</div>
+                        <div class="LawSecondLine"> Letter to the Council of Ministers: Termination of the ministry of
+                            Mrs. Goubert, VOE & Welcome Mr. J. Schipper</div>
+                    </div>
+                    <div class="LawEndLine"> 09/06/2021, Goes <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/brief-introwhatsapp.pdf">
+                <div class="filterDiv brief">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">BRIEF INZAKE DE WHATSAPPGROEP VAN DE MINISTERRAAD</div>
+                        <div class="LawSecondLine"> Letter concerning the WhatsApp group chat of the council</div>
+                    </div>
+                    <div class="LawEndLine"> 07/06/2021, Goes <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/brief-buitenland.pdf">
+                <div class="filterDiv brief">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">BRIEF AAN HET Ministerie van Buitenlandse Zaken en Vorstendomrelaties
+                            INZAKE DE ERKENNING VAN STATEN</div>
+                        <div class="LawSecondLine"> Letter to the ministry of Foreign Affairs and Principality relations
+                            concerning the recognition of states</div>
+                    </div>
+                    <div class="LawEndLine"> 05/06/2021, Hansweert <br>
+                        Language: Dutch </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/brief-denemarken.pdf">
+                <div class="filterDiv brief">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">LETTER TO THE DANISH MINISTRY OF FOREIGN AFFAIRS REQUESTING
+                            RECOGNITION AS A STATE</div>
+                        <div class="LawSecondLine"> Brief aan het Deense ministerie van Buitenlandse Zaken met het
+                            verzoek om als staat erkend te worden</div>
+                    </div>
+                    <div class="LawEndLine"> 19/07/2021, Goes <br>
+                        Language: English + Danish </div>
+                </div>
+            </a>
+
+            <a class="PublicationContainer" href="./publications/brief-allelanden.pdf">
+                <div class="filterDiv brief">
+                    <div class="LawsLines">
+                        <div class="LawFirstLine">LETTER TO THE ALL MINISTRIES OF FOREIGN AFFAIRS REQUESTING RECOGNITION
+                            AS A STATE</div>
+                        <div class="LawSecondLine"> Brief aan alle ministeries van Buitenlandse Zaken met het verzoek om
+                            als staat erkend te worden</div>
+                    </div>
+                    <div class="LawEndLine"> 19/07/2021, Goes <br>
+                        Language: English </div>
+                </div>
+            </a>
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <div class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <br>
+                        <a href="index.html">
+                            <img src="./images/rooie.png" class="FOTOFOOTERS" alt="Gilaian Government">
+                        </a>
+                        <br>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Service</h3>
+                        <ul>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="contact.html">Responsible disclosure</a></li>
+                            <li><a href="sitemap.xml">Sitemap</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Legal </h3>
+                        <ul>
+                            <li><a href="licence.html">Licence &nbsp; <span> <a rel="license"
+                                            href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img
+                                                alt="Creative Commons License" style="border-width:0"
+                                                src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+                                    </span> </a></li>
+                            <li><a href="privacy.html">Privacy policy</a></li>
+                            <li><a href="version.html">Version information</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/6101997ad6e7610a49ad7213/1fbn3v24c';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->
+
+<script type="text/javascript" src="script.js"></script>
+
+</html>

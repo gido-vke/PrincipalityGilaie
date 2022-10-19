@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Deze pagina wordt om privacyredenen niet door Google geindexiëerd-->
+    <meta name="robots" content="noindex">
+    <title>The Government | The Principality of Gilaïe</title>
+</head>
+
+<h1 class="DontShow">The Principality of Gilaïe</h1>
+
+<body>
+    <div id="btn2" class="OfficialSite">
+        <img id="TopImg" src="https://i.ibb.co/rdw8Y8R/Gila-e.png"
+            alt="Het Vorstendom van Gilaïe, Vlag, The Principality of Gilaïe, Flag. Gilaïe/Gilaie">
+        <div class="UpperLineOFF">
+            <div class="WetNet">
+                <b style="display: block;">This is an official website of the Gilaïan Government.</b> <span>
+                    <p onclick="toggle_visibility()" class="LinkAppearance">How do you know?</p>
+            </div>
+            </span>
+        </div>
+        <div id="ReasoningOFF">
+            Currently, there has not yet been a nice way established to ascertain that the website you are viewing is
+            legitimate. <br> You are just going to have to trust your personal reasoning skills.
+        </div>
+    </div>
+    <nav class="verticalBar">
+        <div id="navbar">
+            <div class="Laffy">
+                <a class="hintin" href="contact.html">Contact</a>
+                <a class="hintin" href="news.html">News</a>
+                <a class="hintin" href="laws.html">Publications</a>
+                <a class="hintin" href="structure.html">Structure</a>
+                <a class="hintin" href="council_us.html">The Government</a>
+                <a class="hintin" href="about.html">About</a>
+            </div>
+            <div class="Lop">
+                <a href="index.html">
+                    <img id="ere" src="https://i.ibb.co/pr9SS9p/Gilaje-Inverted.png">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="horizontalList">
+        <div id="navbar2">
+            <div class="Lip">
+                <a href="index.html">
+                    <img id="otr" src="https://i.ibb.co/pr9SS9p/Gilaje-Inverted.png">
+                </a>
+            </div>
+            <div class="HamburgerMenu" onclick="grubbel()">
+                <img class="HambIcoon"
+                    src="https://upload.wikimedia.org/wikipedia/commons/5/59/Hamburger_icon_white.svg"
+                    alt="Hamburger Menu Gilaïe">
+            </div>
+            <ul class="DeNavigatorKLEIN" id="LIJSTloc">
+                <li> <a class="hintin" href="contact.html">Contact</a> <br></li>
+                <li> <a class="hintin" href="news.html">News</a><br></li>
+                <li> <a class="hintin" href="laws.html">Publications</a><br></li>
+                <li> <a class="hintin" href="structure.html">Structure</a> <br></li>
+                <li> <a class="hintin" href="council_us.html">The Government</a><br></li>
+                <li> <a class="hintin" href="about.html">About</a><br></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+    <div class="BannerForTopOfSite">
+        THE GOVERNMENT <br>
+    </div> <br><br><br>
+
+
+    <div class="InhoudExample">
+        <h3>The Council of Ministers</h3>
+        The Council of Ministers conisists of the 10 ministers who govern our country. The minister of General and
+        Interior Affairs is His Majesty the Potentate. He is able to combine His role as Supreme Ruler and member of the
+        Council incredibly well. This structure allows for a much more capable controlling function as well as staying
+        on top of things. <br><br>
+        The Council of Ministers is the main legislative organ of the Principality of Gilaïe. Next to that, each
+        minister also leads their own respectable ministry (executive branch). Some might call this a bad application of
+        the Trias Politica; Our Potentate calls it a much more effective way of executing totalitarian policy.
+        Each member of the Council is highly skilled and deemed the perfect candidate for the function. Specialisation
+        allows for a more productive and fruitful goverment. <br><br>
+        The Government communicates almost always through instant messenger services. Private conversations, group
+        discussions and even voting on law-proposals. The closeness of the group nicely balances with the polical
+        differences that inevitably occur. Next to online communication, good old-fashioned letters are still used,
+        albeit rarely. The coronavirus pandemic and general geographical differences make it difficult for the Council
+        to meet in person often, but when it does happen it is a great experience for every elected member.
+
+        <br><br>
+        The Secretary of State (or: State Secretary of General and Interior Affairs) is the left hand of our Potentate.
+        She is <u>not</u> part of the Council and is not allowed to vote over new laws. However, she does work on
+        important nation-wide issues and tries to maintain a subjective view that will always benefit our leader.
+        <br><br><br>
+
+    </div>
+    <div class="InhoudExample">
+
+        <h3>Official Portraits</h3>
+    </div>
+    <div class="InhoudMinisterExample">
+
+        <div class="minister-grid-container" onload="showRandomNumber();">
+
+            <div id="GRD1" id="DieQuote" class="MinisterCard">
+                <img class="MinisterPhoto" src="./profiles/gido.jpg" alt="Profile Image Minister">
+                <div class="MinisterFunction">Minister of General and Interior Affairs</div>
+                <div class="ExcellentPeople">His honourable Majesty</div>
+                <div class="NameOfMinister">The Rev'd Lord [full-name] of Hougun, Potentate of Gilaïe</div>
+                <div class="MinisterQuote">
+                    <details>
+                        <summary>“This too shall pass.”</summary>
+                        <p><b>Dutch: </b> “Ook dit gaat voorbij.”</p>
+                    </details>
+                </div>
+            </div>
+
+            <div id="GRD2" class="MinisterCard">
+                <img class="MinisterPhoto" src="https://www.multisignaal.nl/wp-content/uploads/2021/08/blank-profile-picture-973460_1280.png" alt="Profile Image Minister">
+                <div class="MinisterFunction">Minister of Defense</div>
+                <div class="ExcellentPeople">His Excellency</div>
+                <div class="NameOfMinister">Lord █. ██ ███████, VOE</div>
+                <div class="MinisterQuote">
+                    <details>
+                        <summary>“Whenever you feel like it, just do it.”</summary>
+                        <p><b>Dutch: </b> “Wanneer je ergens zin in hebt, doe het gewoon.”</p>
+                    </details>
+                </div>
+            </div>
+
+            <div id="GRD3" class="MinisterCard">
+                <img class="MinisterPhoto" src="./profiles/olivier.jpg" alt="Profile Image Minister">
+                <div class="MinisterFunction">Minister of Foreign Affairs and Principality relations</div>
+                <div class="ExcellentPeople">His Excellency</div>
+                <div class="NameOfMinister">Lord O.A. Muijsson, VOE</div>
+                <div class="MinisterQuote">
+                    <details>
+                        <summary>“It is better to change an opinion than to persist in a wrong one.”</summary>
+                        <p><b>Dutch: </b> “Het is beter om van mening te veranderen dan in een verkeerde te blijven
+                            hangen.”</p>
+                    </details>
+                </div>
+            </div>
+
+            <div id="GRD5" class="MinisterCard">
+                <img class="MinisterPhoto" src="./profiles/iris.jpg" alt="Profile Image Minister">
+                <div class="MinisterFunction">Minister of Social Affairs and
+                    Employment</div>
+                <div class="ExcellentPeople">Her Excellency</div>
+                <div class="NameOfMinister">Lady I. Verbart, VOE </div>
+                <div class="MinisterQuote">
+                    <details>
+                        <summary>“Don't die while theres still life inside of you, live now, there’s plenty of time to
+                            die later.”</summary>
+                        <p><b>Dutch: </b> “Sterf niet terwijl er nog leven in je zit, leef nu, er is later genoeg tijd
+                            om te sterven.”</p>
+                    </details>
+                </div>
+            </div>
+            <!-- LET OP !! GRD4 EN GRD5 ZIJN HIER VAN VOLGORDE GEWISSELD-->
+            <div id="GRD4" class="MinisterCard">
+                <img class="MinisterPhoto" src="./profiles/timo.jpg" alt="Profile Image Minister">
+                <div class="MinisterFunction">Minister of Education, Culture and Science</div>
+                <div class="ExcellentPeople">His Excellency</div>
+                <div class="NameOfMinister">Lord T.E.D. Goetheer </div>
+                <div class="MinisterQuote">
+                    <details>
+                        <summary>“I love democracy.”</summary>
+                        <p><b>Dutch: </b> “Ik hou van democratie.”</p>
+                    </details>
+                </div>
+            </div>
+
+            <div id="GRD6" class="MinisterCard">
+                <img class="MinisterPhoto" src="./profiles/bastiaan.jpg" alt="Profile Image Minister">
+                <div class="MinisterFunction">Minister of Health, Welfare and Sport </div>
+                <div class="ExcellentPeople">His Excellency</div>
+                <div class="NameOfMinister">B.C. van 't Westeinde </div>
+                <div class="MinisterQuote">
+                    <details>
+                        <summary>“On bended knee is no way to be free.”</summary>
+                        <p><b>Dutch: </b> “Liever Staande Sterven, Dan Op Je Knieën Leven.”</p>
+                    </details>
+                </div>
+            </div>
+
+            <div id="GRD7" class="MinisterCard">
+                <img class="MinisterPhoto" src="./profiles/demy.jpg" alt="Profile Image Minister">
+                <div class="MinisterFunction">Minister of Housing, Infrastructure and
+                    Architecture</div>
+                <div class="ExcellentPeople">Her Excellency</div>
+                <div class="NameOfMinister">Lady D. van der Poest Clement </div>
+                <div class="MinisterQuote">
+                    <details>
+                        <summary>“Dat weet ik nog niet.”</summary>
+                        <p><b>English: </b> “I'm not sure yet.”</p>
+                    </details>
+                </div>
+            </div>
+
+            <div id="GRD8" class="MinisterCard">
+                <img class="MinisterPhoto" src="./profiles/fee.jpg" alt="Profile Image Minister">
+                <div class="MinisterFunction">Minister of Economic Affairs and Finance</div>
+                <div class="ExcellentPeople">Her Excellency</div>
+                <div class="NameOfMinister">Lady E.J. Tazelaar </div>
+                <div class="MinisterQuote">
+                    <details>
+                        <summary>“Low in calories, big in money.”</summary>
+                        <p><b>Dutch: </b> “Laag in calorieën, groots in geld.”</p>
+                    </details>
+                </div>
+            </div>
+
+            <div id="GRD9" class="MinisterCard">
+                <img class="MinisterPhoto" src="./profiles/sofia.jpg" alt="Profile Image Minister">
+                <div class="MinisterFunction">Minister of Justice and Safety</div>
+                <div class="ExcellentPeople">Her Excellency</div>
+                <div class="NameOfMinister">Lady D.S.P. Goubert, VOE </div>
+                <div class="MinisterQuote">
+                    <details>
+                        <summary>“I would like to thank my fingers for always being able to count on them.”</summary>
+                        <p><b>Dutch: </b> “Ik zou graag mijn vingers willen bedanken omdat ik altijd op ze kan rekenen.”
+                        </p>
+                    </details>
+                </div>
+            </div>
+
+            <div id="GRD10" class="MinisterCard">
+                <img class="MinisterPhoto" src="./profiles/bas.jpg" alt="Profile Image Minister">
+                <div class="MinisterFunction">Minister of Transport and Climate</div>
+                <div class="ExcellentPeople">His Excellency</div>
+                <div class="NameOfMinister">Lord B. van Stel </div>
+                <div class="MinisterQuote">
+                    <details>
+                        <summary>“Zodra je blij bent, maak jezelf dan niet boos.”</summary>
+                        <p><b>English: </b> “Once you're happy, don't make yourself angry.”</p>
+                    </details>
+                </div>
+            </div>
+
+            <div id="GRD11" class="MinisterCard">
+                <img class="MinisterPhoto" src="./profiles/esther.jpg" alt="Profile Image Minister">
+                <div class="MinisterFunction">Secretary of State</div>
+                <div class="ExcellentPeople">Her Excellency</div>
+                <div class="NameOfMinister">Lady E.C. Wagenaar </div>
+                <div class="MinisterQuote">
+                    <details>
+                        <summary>“Hakuna Matata.”</summary>
+                        <p><b>English: </b> “No worries for the rest of your days.”<br>
+                            <b>Dutch: </b> “Geen zorgen voor de rest van de tijd.”
+                        </p>
+                    </details>
+                </div>
+            </div>
+
+            <div id="GRD12" class="MinisterCard">
+                <!--empty-->
+            </div>
+        </div>
+        <div style="font-size: small; max-width: 500px;">
+            <br>
+
+            <b>† </b><i> Some images do not reflect the actual physical appearance of members of the Council for privacy
+                reasons. The images on this page may have been subject to digital alteration.<br></i>
+            <b>* </b><i> Click or tap on a quote to see its translation.</i>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="InhoudExample">
+        <h3>Legal Notice</h3>
+        <div style="max-width: 500px;">
+
+            <details>
+                <summary> <i>Deze belangrijke informatie is ook beschikbaar in het Nederlands. Klik hier om dit te
+                        bekijken.</i>
+                </summary>
+                <p> Deze pagina is samengesteld met privacy als hoogste prioriteit. Het is op geen enkele manier de
+                    bedoeling van de
+                    maker om disrespectvol om te gaan met eenieder die op deze pagina wordt vermeld. De personen
+                    op deze pagina hebben elk vrijwillig
+                    hun portret aan de auteur ingediend en daarmee het wettelijke recht is verschaft aan de maker om
+                    dit weer te geven,
+                    maar niet voor commerciële doeleinden. Een <a
+                        href="https://developers.google.com/search/docs/advanced/crawling/block-indexing"> noindex
+                    </a> metatag
+                    is toegevoegd aan de 'head' van deze pagina. Als deze pagina toch wordt weergegeven in de
+                    zoekresultaten
+                    van een online
+                    zoekmachine, neem dan direct<a href="contact.html">contact op met de Overheid van Gilaïe.</a>
+                    <br><br> <b> Als u op deze pagina staat en niet tevreden bent met uw vermelding, kunt u altijd
+                        contact opnemen om deze te wijzigen
+                        of volledig te verwijderen. </b> <br><br>
+                    Geen van de portretten en/of afbeeldingen op deze webpagina mag worden gereproduceerd,
+                    gedistribueerd of verzonden in welke vorm of op welke manier dan ook, inclusief fotokopiëren,
+                    downloaden, backwards engineering, opname of enige andere elektronische of mechanische methode.
+                    Beschermd krachtens de Copyright Act van 1976 in de Verenigde Staten en Richtlijn (EU) 2019/790 van
+                    het Europees Parlement en de Raad van 17 april 2019 betreffende auteursrechten en naburige rechten
+                    in de digitale eengemaakte markt en tot wijziging van Richtlijnen 96/9/EG en 2001/29/EG
+                    (PE/51/2019/REV/1) in de Europese Unie.
+                    <br><br>
+                    © 2021 Gido [surname]. Alle rechten voorbehouden. <br>
+                </p>
+                <div class="LINEARTIME"></div>
+            </details><br>
+            This page has been compiled with privacy as its highest priority. It is in no way the intention of the
+            creator to disrespect any person listed on this page. The persons on this page have each voluntarily
+            submitted their image to the author and in doing so the legal right has been asserted to display them,
+            albeit not for any commericial purposes. A <a
+                href="https://developers.google.com/search/docs/advanced/crawling/block-indexing"> noindex </a> meta tag
+            has been added to the header of this page. If this page does appear in the search results of any online
+            search machine, please <a href="contact.html"> contact the Government of Gilaïe</a>
+            directly.
+            <br><br> <b>If you are on this page, and are discontent with your listing, you can always get in touch to
+                change
+                or completely remove your listing. <br><br> </b>
+            None of the portraits and/or images on this webpage may be reproduced, distributed, or transmitted in any
+            form or by any means, including photocopying, downloading, backwards engineering, recording or any other
+            electronic or mechanical methods. Protected under the Copyright Act of 1976 in the United States, and
+            Directive (EU) 2019/790 of the European Parliament and of the Council of 17 April 2019 on copyright and
+            related rights in the Digital Single Market and amending Directives 96/9/EC and 2001/29/EC
+            (PE/51/2019/REV/1) in the European Union.
+            <br><br>
+
+
+            © 2021 Gido [surname]. All rights reserved. <br>
+
+        </div>
+    </div>
+
+
+    <br><br><br>
+
+    <div class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <br>
+                        <a href="index.html">
+                            <img src="./images/rooie.png" class="FOTOFOOTERS" alt="Gilaian Government">
+                        </a>
+                        <br>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Service</h3>
+                        <ul>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="contact.html">Responsible disclosure</a></li>
+                            <li><a href="sitemap.xml">Sitemap</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Legal </h3>
+                        <ul>
+                            <li><a href="licence.html">Licence &nbsp; <span> <a rel="license"
+                                            href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img
+                                                alt="Creative Commons License" style="border-width:0"
+                                                src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+                                    </span> </a></li>
+                            <li><a href="privacy.html">Privacy policy</a></li>
+                            <li><a href="version.html">Version information</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/6101997ad6e7610a49ad7213/1fbn3v24c';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->
+
+<script type="text/javascript" src="script.js"></script>
+
+</html>
